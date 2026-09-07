@@ -36,3 +36,11 @@ Open `http://localhost:4173`.
 ### Shape Forge
 
 A dependency-free mini-game that uses triangles, squares, rectangles and circles to teach basic geometric properties. The shape artwork is stored as an SVG asset in `assets/shape-forge.svg`.
+
+### Shape Swarm
+
+A generative geometry mini-game where a swarm of triangles, circles and squares morphs into a cat and a tree. The exercise demonstrates emergent visual patterns and abstraction.
+
+### Mini-kryssord
+
+A compact Norwegian knowledge crossword with intersecting across/down entries about geometry, evidence, circuits and nature. The puzzle is original to this repository and runs without external services.
