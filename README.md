@@ -44,3 +44,7 @@ A generative geometry mini-game where a swarm of triangles, circles and squares 
 ### Mini-kryssord
 
 A compact Norwegian knowledge crossword with intersecting across/down entries about geometry, evidence, circuits and nature. The puzzle is original to this repository and runs without external services.
+
+## Quality gate
+
+The interactive engines are intended to run entirely in the browser. Before publishing a release, verify the engine registry, navigation controls, and learning-game smoke tests.
