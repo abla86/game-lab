@@ -2,7 +2,7 @@ import fs from 'node:fs';
 
 const engines = [
   'cyber-chess','connect4','sql-dungeon','network-defender','packet-rush',
-  'api-outbreak','devops-pipeline','memory-matrix','regex-vault','evidence-quest','shape-forge'
+  'api-outbreak','devops-pipeline','memory-matrix','regex-vault','evidence-quest','shape-forge','shape-mosaic','mini-crossword'
 ];
 
 const required = ['index.html','css/lab-theme.css','js/lab-runtime.js'];
@@ -24,4 +24,4 @@ for (const engine of engines) {
 const runtime = fs.readFileSync('js/lab-runtime.js','utf8');
 if (!runtime.includes('registerEngine') || !runtime.includes('mountEngine')) throw new Error('LabRuntime contract incomplete');
 
-console.log('Game Lab structure OK: runtime + 11 engines + registrations');
+console.log('Game Lab structure OK: runtime + 13 engines + registrations');
