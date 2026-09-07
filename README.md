@@ -14,6 +14,7 @@ Interactive engineering laboratory with one shared runtime and ten plug-in engin
 8. Memory Matrix — LRU cache simulator
 9. Regex Vault — pattern validation challenge
 10. Evidence Quest — weighted multi-criteria prototype
+11. Shape Forge — mini-game for learning geometry by assembling target figures
 
 Every engine exposes the same lifecycle shape through `constructor`, `init()` and `destroy()` and sends metrics through the runtime telemetry bridge.
 
@@ -31,3 +32,7 @@ npm run dev
 ```
 
 Open `http://localhost:4173`.
+
+### Shape Forge
+
+A dependency-free mini-game that uses triangles, squares, rectangles and circles to teach basic geometric properties. The shape artwork is stored as an SVG asset in `assets/shape-forge.svg`.
