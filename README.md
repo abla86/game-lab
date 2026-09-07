@@ -1,6 +1,6 @@
 # GAME LAB
 
-Interactive engineering laboratory with one shared runtime and ten plug-in engines.
+Interactive engineering laboratory with one shared runtime and thirteen plug-in engines.
 
 ## Engines
 
@@ -15,6 +15,8 @@ Interactive engineering laboratory with one shared runtime and ten plug-in engin
 9. Regex Vault — pattern validation challenge
 10. Evidence Quest — weighted multi-criteria prototype
 11. Shape Forge — mini-game for learning geometry by assembling target figures
+12. Shape Swarm — emergent particle geometry forming a cat and a tree
+13. Mini-kryssord — intersecting Norwegian knowledge crossword
 
 Every engine exposes the same lifecycle shape through `constructor`, `init()` and `destroy()` and sends metrics through the runtime telemetry bridge.
 
